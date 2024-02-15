@@ -1,0 +1,148 @@
+JavaScript => JS
+
+Binary Lang(Machine code)
+
+1 => True 
+0 => False
+
+Programming Lang 
+variables
+loops
+operators
+
+Program => set of instructions
+
+HTML => create a structure of web page
+CSS => styling a web page 
+JS => dynamic content
+
+Web development => JS
+
+client side and server side
+
+=> scripting lang, dynamic pages
+
+
+=> Mocha script
+=> Live Script
+=> JavaScript
+
+Browser => NetScape Browser
+
+
+php => full stack developer
+
+
+types of CSS:
+	=> inline 
+	=> internal 
+	=> external
+
+
+Run =>
+	 head execute => link
+			style tag
+	=> body 
+ 
+
+
+JS is loosely typed lang
+=> in c 
+
+int a = 5;
+a = "sanket"; //error
+
+=> in js
+
+var a = 5;
+a = "sanket";
+
+
+id, class, tag => in css
+
+DOM(Document Object Model) Functions
+=> getElementsByTagName()
+=> getElementsByClassName()
+=> getElementById()
+=> innerText
+=> innerHTML
+
+
+document.getElementsByTagName("h1");
+HTMLCollection(3) [h1, h1.demo, h1]
+
+document.getElementsByTagName("h1")[0];
+<h1>​hello World 1​</h1>​
+
+document.getElementsByTagName("h1")[0].style.color="cyan";
+document.getElementsByTagName("h1")[0].style.backgroundColor="yellow";
+
+
+document.getElementsByClassName("demo")[0].innerText;
+'hello World 2'
+
+=>document.getElementsByClassName("demo")[0].innerText = "sanket gupte";
+
+=>document.getElementsByClassName('demo')[1];
+
+
+
+=>document.getElementById("heading");
+<h1 id=​"heading">​hello World 3​</h1>​
+
+
+=>getElementsByTagName and getElementsByClassName=> returns HTMLCollection []
+
+=>document.getElementById("heading").style.color = "pink";
+
+
+=>document.getElementsByClassName("demo")[0].innerText = "sanket gupte";
+'sanket gupte'
+
+=>document.getElementsByClassName("demo")[0].innerHTML;
+'sanket gupte'
+
+
+
+=>document.getElementsByClassName("demo")[0].innerText="<i>sanket gupte</i>";
+'<i>sanket gupte</i>'
+
+
+=>document.getElementsByClassName("demo")[0].innerHTML="<i>sanket gupte</i>";
+'<i>sanket gupte</i>'
+
+
+
+
+
+=>  <h1><span>sanket gupte</span></h1>
+
+innerHTML: "<span>sanket gupte</span>"
+
+innerText: "sanket gupte"
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS basics</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- internal css -->
+    <style>
+        /* .demo{
+            color: blue;
+        } */
+    </style>
+</head>
+<body>
+    <h1>hello World 1</h1>
+    <h1 class="demo">hello World 2</h1>
+    <h1 id="heading">hello World 3</h1>
+    <h1 class="demo">hello world 4</h1>
+    <h1 id="heading">hello World 5</h1>
+
+    <h1><span>sanket gupte</span></h1>
+</body>
+</html>

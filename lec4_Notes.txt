@@ -1,0 +1,145 @@
+=>Conditional statements
+	=>if
+	=>if else
+	=>if ladder
+	=>nested if else
+
+//nested if 
+
+if(condition)
+{
+	
+	if(condition)
+	{
+	
+	}
+}
+
+//nested if else
+if(condition)
+{
+	
+	if(condition)
+	{
+	
+	}
+	else
+	{
+	
+	}
+}
+
+//nested if else ladder
+
+if(condition)
+{
+	
+	if(condition)
+	{
+	
+	}
+	else if(condition)
+	{
+	
+	}
+	else
+	{
+	
+	}
+}
+else
+{
+	if(condition)
+	{
+	
+	}
+	else if(condition)
+	{
+	
+	}
+	else
+	{
+	
+	}
+}
+
+
+
+
+if(T)
+{
+	
+	if(F)
+	{
+		p
+	}
+	else
+	{
+		q
+	}
+}
+else
+{
+	if(false)
+	{
+		r
+	}
+}
+
+
+
+if(T)
+{
+	
+	if(F)
+	{
+		p
+	}
+}
+else
+{
+	if(false)
+	{
+		r
+	}
+}
+
+
+
+if(F)
+{
+	
+	if(F)
+	{
+		p
+	}
+}
+else
+{
+	if(false)
+	{
+		r
+	}
+}
+
+
+
+=>Loop  
+	=> while loop
+	=> for loop
+	=> do while loop
+
+
+=> Types of comments
+	single line => 
+		syntax:
+		// content goes here
+
+	multi line =>
+	/* content
+		goes
+		          here
+	*/
+
+
+

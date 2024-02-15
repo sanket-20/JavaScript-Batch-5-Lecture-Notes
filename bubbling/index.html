@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outest, #inner, #outer{
+            border: 1px solid red;
+            text-align: center;
+            padding-top: 15px;
+            cursor: pointer;
+        }
+        #inner, #outer{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #outest{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+        }
+        #outer{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        #inner{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="outest">
+        Outest Div
+        <div id="outer">
+            Outer Div
+            <div id="inner">
+                Inner Div
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

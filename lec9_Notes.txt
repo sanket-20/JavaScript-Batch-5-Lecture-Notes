@@ -1,0 +1,10 @@
+Bubbling => child to parent
+Capturing => parent to child
+
+
+=> Project - Tic tac toe
+
+
+1     0      1
+1     0      0
+0     1     1

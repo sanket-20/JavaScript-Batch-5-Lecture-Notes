@@ -1,0 +1,10 @@
+String methods in js:
+
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String length
+String charAt()
+String slice()
+String split()

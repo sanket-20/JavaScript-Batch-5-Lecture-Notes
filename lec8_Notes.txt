@@ -1,0 +1,66 @@
+num = 5=> check the given number is prime or not
+
+=>completely divisible by 1 and itself
+
+
+=> 1st logic
+5%1 == true
+5%2 == false
+5%3 == false
+5%4 == false
+5%5 == true
+
+=> 2nd logic
+
+5%2 == false
+5%3 == false
+5%4 == false
+
+
+=> 3rd logic
+
+100%2 = true
+100%3 = false
+....
+100%99 = false
+
+
+a = 5
+b = 6
+
+c= a
+a = b
+b = c
+
+a  = a + b;//11
+b = a - b; //5
+a = a - b;//11-5 =6
+
+class  ArrayFun
+{
+	variable and func
+
+	function pop()
+	{
+		//logic 
+	}
+	function push(params)
+	{
+		//logic 
+	}
+
+}
+
+//var obj = new ArrayFun();
+
+in c:
+ArrayFun obj;
+
+obj.pop()
+
+
+
+
+
+
+

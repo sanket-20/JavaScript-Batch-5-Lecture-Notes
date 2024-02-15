@@ -1,0 +1,13 @@
+Array => collection of data having different datatypes
+
+
+
+=> in c
+int arr[5] = {1, 2,3,4,5};
+
+=> in js
+
+var arr = [1, 3.5, "sanket", true];
+
+size of array => n-1
+

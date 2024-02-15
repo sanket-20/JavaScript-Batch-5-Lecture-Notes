@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="pic_bulboff.gif">
+    <button onclick="onBulb()">On Bulb</button>
+    <button onclick="offBulb()">Off Bulb</button>
+    <h1 id="status">Bulb is OFF</h1>
+    <h1 id="name"></h1>
+    <!-- internal js -->
+    <script>
+        function onBulb()
+        {
+            document.querySelector('img').src = 'pic_bulbon.gif';
+            document.querySelector('#status').innerText = "Bulb is ON";
+        }
+        function offBulb()
+        {
+            document.querySelector('img').src = 'pic_bulboff.gif';
+            document.querySelector('#status').innerText = "Bulb is OFF";
+        }
+        
+        var a =5;
+        console.log(a);
+
+        var name = "sanket";
+        // document.querySelector('#name').innerText = "Hello "+name;
+
+        // template/string literals
+        document.querySelector('#name').innerText = `hello , ${name}`;
+    </script>
+</body>
+
+</html>

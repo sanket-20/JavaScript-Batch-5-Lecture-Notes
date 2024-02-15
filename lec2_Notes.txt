@@ -1,0 +1,25 @@
+DOM Functions => 
+
+getElementsByTagName()
+getElementsByClassName()
+getElementById()
+innerText
+innerHTML
+
+querySelector("") (".")("#")
+querySelectorAll()
+
+
+variables => to store a value , It can be changed in any condition
+
+var a;
+a =5
+a = a + 2
+
+constants =>to store a value , It can't be changed in any condition
+const pi = 3.14;
+
+=> how to print values
+console.log(a); //testing
+document.write(a); //not using
+
