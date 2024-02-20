@@ -1,0 +1,26 @@
+GitHub => platform(open source) => cloud storage=> upload project, notes 
+
+=> Repo(folder) => project source code
+
+=> create account on github
+
+step 0 => git download
+step 1 => create new repo => repo name, repo desc(optional), 
+	check mark(redme file) <= imp
+step 2 => create github-project folder on local
+step 3 => go to github-project path and open cmd
+step 4 => git clone https://github.com/sanket-20/calculator.git
+step 5 => open your project folder(local) and copy all the files and paste it to
+ cloned repo folder
+=> step 6 => cd calculator(your repo name)
+=> step 7 => git status (red color) 
+=> step 8 => git add .
+
+=> step 9 => git config --global user.email "sanketgupte20@gmail.com"
+=> step 10 => git config --global user.name "sanket-20"
+
+=>step 11 => git commit -m"inital commit" (-m=> msg)
+=> step 12 => git push origin main
+
+=> step 13 => go to setting => go to side section Pages => select main branch and Save => go to action tab(you get your deploy like here)
+
